@@ -1,0 +1,1 @@
+"# nativescript-listview-customcomponent" 

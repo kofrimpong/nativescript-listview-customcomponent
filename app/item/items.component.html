@@ -1,0 +1,11 @@
+<ActionBar title="My App" class="action-bar">
+</ActionBar>
+<StackLayout class="page">
+    <ListView [items]="items" class="list-group">
+        <ng-template let-item="item">
+            <StackLayout paddingTop="20" paddingBottom="20">
+                <ItemDetailComponent [name]="item.name" [role]="item.role" class="list-group-item"></ItemDetailComponent>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</StackLayout>
